@@ -29,4 +29,4 @@ automatic mining, claim every 24h send notif telegram
 
 CTRL A + D for run in background
 
-Join Our Telegram : t.me/NTExhaust
+Join Our Telegram : (https://t.me/NTExhaust)[https://t.me/NTExhaust]
