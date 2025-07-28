@@ -18,7 +18,7 @@ while true; do
   NPT_BALANCE=$(node get-npt-balance.js 2>/dev/null)
 
   send_telegram "📢 *NT-Exhaust Report*  
-*NETRUM AI*
+*===== NETRUM AI =====*
 
 🚀 *Mining Netrum dimulai...* ⛏️
 🕒 *Jam mulai*: $start_time
