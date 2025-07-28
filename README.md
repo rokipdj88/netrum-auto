@@ -14,9 +14,11 @@ automatic mining, claim every 24h send notif telegram
    nano .env
    ```
    
-3. Permission
+3. Permission & Dependencies
    ```
    chmod +x netrum-auto.sh
+   npm install
+   ```
 
 4. Create Screen
    ```
