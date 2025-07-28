@@ -9,7 +9,7 @@ const contract = new web3.eth.Contract(ERC20ABI, process.env.NPT_CONTRACT);
   try {
     const balance = await contract.methods.balanceOf(process.env.WALLET).call();
     const formatted = parseFloat(web3.utils.fromWei(balance)).toFixed(4);
-    process.stdout.write(formatted); // gunakan stdout.write agar tidak ada newline
+    process.stdout.write(formatted);
   } catch (err) {
     process.stdout.write("0.0000");
   }
