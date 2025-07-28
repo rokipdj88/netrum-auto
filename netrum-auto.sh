@@ -22,6 +22,7 @@ while true; do
 
 🚀 *Mining Netrum dimulai...* ⛏️
 🕒 *Jam mulai*: $start_time
+🧾 *Wallet*: \`${WALLET}\`
 💰 *Saldo NPT (Base)*: ${NPT_BALANCE} NPT"
 
   netrum-mining &
