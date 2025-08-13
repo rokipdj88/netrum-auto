@@ -28,7 +28,7 @@ while true; do
   netrum-mining &
   mining_pid=$!
 
-  sleep 24h
+  sleep 87000
 
   send_telegram "⏳ *24 jam selesai. Klaim reward...* 🪙"
   echo "y" | netrum-claim
